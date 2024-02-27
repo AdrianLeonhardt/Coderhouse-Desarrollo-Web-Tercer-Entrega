@@ -28,9 +28,11 @@
         text-align: center;
         vertical-align: top;
         margin: 10px 10px 10px 10px;
+        padding: 10px;
         padding-top: 80px;
         border-radius: 10px;
         border: solid 3px whitesmoke;
+        @include flex(column, center, center, 0);
         
         .titulo-principal {
             font-weight: bolder;
