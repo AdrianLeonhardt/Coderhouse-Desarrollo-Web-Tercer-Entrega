@@ -127,6 +127,7 @@ footer .copyright {
   height: 600px;
   border-radius: 15px;
   border-style: ridge;
+  box-shadow: 0px 0px 5px 1px #000000;
 }
 .info-principal .box-content {
   width: 50%;
@@ -139,6 +140,7 @@ footer .copyright {
   padding-top: 80px;
   border-radius: 10px;
   border: solid 3px whitesmoke;
+  box-shadow: 1px 1px 5px 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -165,6 +167,11 @@ footer .copyright {
   height: 500px;
   border-radius: 15px;
   border: solid 3px whitesmoke;
+  box-shadow: 1px 1px 5px 1px;
+  transition: 1s;
+}
+.info-principal .box-img img:hover {
+  filter: saturate(2);
 }
 
 .contacto {
@@ -178,6 +185,7 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  box-shadow: 0px 0px 5px 1px #000000;
 }
 .contacto .contacto-titulo {
   font-weight: bold;
@@ -195,6 +203,7 @@ footer .copyright {
   grid-template-columns: 1fr;
   padding: 10px;
   gap: 5px;
+  box-shadow: 1px 1px 5px 1px;
 }
 .contacto .contacto-formulario .area-campo {
   background-color: #ffffff;
@@ -251,6 +260,7 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  box-shadow: 0px 0px 5px 1px #000000;
 }
 .historia .historia-titulo {
   font-weight: bolder;
@@ -265,6 +275,11 @@ footer .copyright {
   height: 600px;
   border-radius: 10px;
   border: solid 3px whitesmoke;
+  box-shadow: 1px 1px 5px 1px;
+  transition: 1s;
+}
+.historia .historia-fotos img:hover {
+  filter: contrast(1.5);
 }
 
 .locales {
@@ -278,6 +293,7 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  box-shadow: 0px 0px 5px 1px #000000;
 }
 .locales .locales-titulo {
   font-weight: bold;
@@ -310,6 +326,7 @@ footer .copyright {
   object-fit: cover;
   border: solid 3px whitesmoke;
   border-radius: 15px;
+  box-shadow: 1px 1px 5px 1px;
   filter: saturate(60%);
 }
 .locales .locales-fotos img:hover {
@@ -328,6 +345,7 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  box-shadow: 0px 0px 5px 1px #000000;
 }
 .promociones h1 {
   font-weight: bold;
@@ -341,6 +359,7 @@ footer .copyright {
   border-style: ridge;
   width: auto;
   height: auto;
+  box-shadow: 0px 0px 5px 1px #000000;
 }
 .promociones-carru .promociones-contenedor {
   background-color: rgb(255, 205, 139);
@@ -351,6 +370,7 @@ footer .copyright {
   padding: 30px;
   display: flex;
   gap: 80px;
+  box-shadow: 1px 1px 5px 1px;
 }
 .promociones-carru .promociones-fotos {
   width: 50%;
@@ -363,6 +383,11 @@ footer .copyright {
   gap: 30px;
   border-radius: 10px;
   border: solid 3px whitesmoke;
+  transition: 1s;
+  box-shadow: 1px 1px 5px;
+}
+.promociones-carru .promociones-fotos img:hover {
+  filter: saturate(2.1);
 }
 .promociones-carru .promociones-texto {
   background-color: #FFE4C4;
@@ -371,6 +396,7 @@ footer .copyright {
   border: solid 3px whitesmoke;
   text-align: center;
   padding: 10px;
+  box-shadow: 1px 1px 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -579,8 +605,11 @@ footer .copyright {
   /*Index*/
   .info-principal {
     height: auto;
-    margin: 0%;
+    margin: 10px;
     padding: 0%;
+  }
+  .info-principal .box-content .parrafo-principal {
+    margin-top: 0px;
   }
 }
 

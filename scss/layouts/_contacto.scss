@@ -5,6 +5,7 @@
     border-radius: 15px;
     border-style: ridge;
     @include flex(column, center, center, 15px);
+    box-shadow: 0px 0px 5px 1px #000000;
     
     .contacto-titulo {
         font-weight: bold;
@@ -24,6 +25,7 @@
         grid-template-columns: 1fr;
         padding: 10px;
         gap: 5px;
+        box-shadow: 1px 1px 5px 1px;
 
         .area-campo {
             background-color: $color-blanco;

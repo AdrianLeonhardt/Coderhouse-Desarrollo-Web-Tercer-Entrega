@@ -191,8 +191,12 @@
     /*Index*/
     .info-principal {
         height: auto;
-        margin: 0%;
+        margin: 10px;
         padding: 0%;
-        
+        .box-content {
+            .parrafo-principal {
+                margin-top: 0px;
+            }
+        }
     }
 }
