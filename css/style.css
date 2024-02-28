@@ -102,13 +102,16 @@ footer .copyright {
   color: #000000;
 }
 
-.carousel-item {
+.carousel-section {
+  margin-top: -20px;
+}
+.carousel-section .carousel-item {
   width: 100%;
   height: 500px;
   margin-top: 50px;
   border: solid 5px whitesmoke;
 }
-.carousel-item img {
+.carousel-section .carousel-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -438,6 +441,9 @@ footer .copyright {
     display: none;
   }
   /*Index*/
+  .carousel-section {
+    margin-top: -40px;
+  }
   .info-principal {
     display: flex;
     flex-direction: column;

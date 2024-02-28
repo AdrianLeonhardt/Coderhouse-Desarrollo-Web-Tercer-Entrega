@@ -1,13 +1,17 @@
-.carousel-item {
-    width: 100%;
-    height: 500px;
-    margin-top: 50px;
-    border: solid 5px whitesmoke;
+.carousel-section {
+    margin-top: -20px;
 
-    img {
+    .carousel-item {
         width: 100%;
-        height: 100%;
-        object-fit: cover;
+        height: 500px;
+        margin-top: 50px;
+        border: solid 5px whitesmoke;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
 }
 
@@ -35,7 +39,7 @@
         border: solid 3px whitesmoke;
         box-shadow: 1px 1px 5px 1px;
         @include flex(column, center, center, 0);
-        
+
         .titulo-principal {
             font-weight: bolder;
         }
